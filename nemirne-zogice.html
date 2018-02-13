@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>..:: Nemirne žogice ::..</title>
+		<script src="skripta.js"></script>
+	</head>
+	<body>
+		<!-- GLAVA -->
+		<glava>
+			<table style="width: 100%">
+				<tr>
+					<td style="width: 200px">Izberi barve:</td>
+					<td style="width: calc(100% - 20px);">
+						<span id="barve"></span>
+						<input id="odstraniBarve" type="button" value="Odstrani barve žogic" />
+					</td>
+					<td rowspan="2" style="width: 300px">
+						<button id="start">Zaženi žogice</button>
+					</td>
+				</tr>
+				<tr>
+					<td>Hitrost žogic:</td>
+					<td>od najmanj <input id="min" value="1" /> do največ <input id="max" value="50" /></td>
+				</tr>
+			</table>
+		</glava>
+		<!-- TELO -->
+		<telo id="igrisce"></telo>
+	</body>
+</html>
