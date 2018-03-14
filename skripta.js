@@ -12,6 +12,7 @@ window.addEventListener('load', function() {
 		picker.fromRGB(Math.floor(Math.random()*255), Math.floor(Math.random()*255), Math.floor(Math.random()*255));
 		document.getElementById("barve").appendChild(input);
 	};
+	document.querySelector("#novaBarva").addEventListener('click',dodajBarvo);
 
 
 	// ##
