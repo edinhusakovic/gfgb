@@ -66,8 +66,8 @@ window.addEventListener('load', function() {
 	};
 
 
-	var minHitrost = 0;
-	var maxHitrost = 0;
+	var minHitrost = document.querySelector("#min");
+	var maxHitrost = document.querySelector("#max");
 	var hitrost = 1;
 	var ustavi = false;
 
