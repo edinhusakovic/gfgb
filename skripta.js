@@ -58,6 +58,11 @@ window.addEventListener('load', function() {
 		for (var i=0; i < zogice.length; i++) {
 			zogice[i].remove();
 		}
+		
+		var ponovniZag = document.querySelector("#start");
+		ponovniZag.innerHTML="Zaženi žogice";
+		ponovniZag.removeEventListener('click',ustavitev);
+		ponovniZag.addEventListener('click',zagon);
 	};
 
 
